@@ -4,21 +4,18 @@ This DLL resolves the issue where the ShowDialog window opens behind other scree
 
 ![Example](https://github.com/DKreutz0/Powershell.ShowBrowseDialog/blob/main/Powershell.ShowBrowseDialog.png)
 
-
-| File / Folder                                            | Description                                                                |
-|----------------------------------------------------------|----------------------------------------------------------------------------|
-| [.github/](.github/)                                     | GitHub workflows and configuration (e.g. Actions)                          |
-| [.vscode/](.vscode/)                                     | Visual Studio Code workspace settings                                      |
-| [bin/](bin/)                                             | Output folder for compiled DLLs and binaries                               |
-| [obj/](obj/)                                             | Build intermediate files (auto-generated, can be ignored)                  |
-| [Properties/](Properties/)                               | .NET project properties (AssemblyInfo, etc.)                               |
-| [Powershell.ShowBrowseDialog.csproj](Powershell.ShowBrowseDialog.csproj) | .NET project file                                              |
-| [Powershell.ShowBrowseDialog.sln](Powershell.ShowBrowseDialog.sln)         | Visual Studio solution file                                 |
-| [README.md](README.md)                                   | Project documentation (this file)                                          |
-| [ShowBrowseDialog.cs](ShowBrowseDialog.cs)               | Main source file: `DialogHelper` for Windows FolderBrowserDialog           |
-| [LICENSE](LICENSE)                                       | License file                                                               |
-| [.gitignore](.gitignore)                                 | Git ignore file           
-
+Powershell.ShowBrowseDialog/
+├── Powershell.ShowBrowseDialog Example
+│   └── Powershell.ShowBrowseDialog.dll
+│   └── Powershell.ShowBrowseDialog.ps1
+├── Powershell.ShowBrowseDialog
+│   └── Debug/
+│       └── Powershell.ShowBrowseDialog.sln
+│           └── Powershell.ShowBrowseDialog
+│               └── ShowBrowseDialog.cs
+│               └── Powershell.ShowBrowseDialog.csproj
+├── Powershell.ShowBrowseDialog.png
+└── README.md
 You can pass ALL parameters!
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
