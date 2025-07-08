@@ -19,8 +19,13 @@ You can pass ALL parameters!
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 Usage:
 
-
 [string]$DllPath = "$PSScriptRoot\Powershell.ShowBrowseDialog.dll" Just put the DLL in the scriptfolder or change the location for yourself.
+
+Powershell 5x just run de script in powershell
+powershell 7
+
+cd "\Powershell.ShowBrowseDialog Example\" to the path where the script has been placed
+.\Powershell.ShowBrowseDialog.ps1
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
