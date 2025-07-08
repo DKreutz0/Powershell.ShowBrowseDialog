@@ -4,18 +4,14 @@ This DLL resolves the issue where the ShowDialog window opens behind other scree
 
 ![Example](https://github.com/DKreutz0/Powershell.ShowBrowseDialog/blob/main/Powershell.ShowBrowseDialog.png)
 
-Powershell.ShowBrowseDialog/
-├── Powershell.ShowBrowseDialog Example
-│   └── Powershell.ShowBrowseDialog.dll
-│   └── Powershell.ShowBrowseDialog.ps1
-├── Powershell.ShowBrowseDialog
-│   └── Debug/
-│       └── Powershell.ShowBrowseDialog.sln
-│           └── Powershell.ShowBrowseDialog
-│               └── ShowBrowseDialog.cs
-│               └── Powershell.ShowBrowseDialog.csproj
-├── Powershell.ShowBrowseDialog.png
-└── README.md
+| File / Folder                       | Description                                                             |
+|-------------------------------------|-------------------------------------------------------------------------|
+| Powershell.ShowBrowseDialog Example | Powershell Example with C# DLL File                                     |
+| Powershell.ShowBrowseDialog         | C# Project                                                              |
+| Powershell.ShowBrowseDialog.png     | Screenshot                                                              |
+| README.md                           | Documentation                                                           |
+
+
 You can pass ALL parameters!
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
