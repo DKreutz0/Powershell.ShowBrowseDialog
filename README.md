@@ -5,10 +5,16 @@ This DLL resolves the issue where the ShowDialog window opens behind other scree
 You can pass ALL parameters!
 
 -Description
+
 -RootFolder (e.g., Desktop, MyDocuments, MyComputer, etc.)
+
 -SelectedPath
+
 -ShowNewFolderButton
+
 -UseDescriptionForTitle
+
+
 
 [string]$DllPath = "$PSScriptRoot\Powershell.ShowBrowseDialog.dll" Just put the DLL in the scriptfolder or change the location for yourself.
 
