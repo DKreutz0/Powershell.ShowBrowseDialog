@@ -5,19 +5,19 @@ This DLL resolves the issue where the ShowDialog window opens behind other scree
 ![Example](https://github.com/DKreutz0/Powershell.ShowBrowseDialog/blob/main/Powershell.ShowBrowseDialog.png)
 
 
-## File List
-
-| File / Folder                      | Description                                                              |
-|------------------------------------|------------------------------------------------------------------------- |
-| Powershell.ShowBrowseDialog.csproj | .NET project configuration file                                          |
-| ShowBrowseDialog.cs                | Contains the `DialogHelper` static class for the Windows folder dialog   |
-| LICENSE                            | License file (MIT or other)                                              |
-| README.md                          | Project documentation (this file)                                        |
-| .gitignore                         | Git ignore rules                                                         |
-| bin/                               | Output folder for compiled DLLs                                          |
-| obj/                               | Intermediate build output                                                |
-| Powershell.ShowBrowseDialog.sln    | Visual Studio solution file                                              |
-
+| File / Folder                                            | Description                                                                |
+|----------------------------------------------------------|----------------------------------------------------------------------------|
+| [.github/](.github/)                                     | GitHub workflows and configuration (e.g. Actions)                          |
+| [.vscode/](.vscode/)                                     | Visual Studio Code workspace settings                                      |
+| [bin/](bin/)                                             | Output folder for compiled DLLs and binaries                               |
+| [obj/](obj/)                                             | Build intermediate files (auto-generated, can be ignored)                  |
+| [Properties/](Properties/)                               | .NET project properties (AssemblyInfo, etc.)                               |
+| [Powershell.ShowBrowseDialog.csproj](Powershell.ShowBrowseDialog.csproj) | .NET project file                                              |
+| [Powershell.ShowBrowseDialog.sln](Powershell.ShowBrowseDialog.sln)         | Visual Studio solution file                                 |
+| [README.md](README.md)                                   | Project documentation (this file)                                          |
+| [ShowBrowseDialog.cs](ShowBrowseDialog.cs)               | Main source file: `DialogHelper` for Windows FolderBrowserDialog           |
+| [LICENSE](LICENSE)                                       | License file                                                               |
+| [.gitignore](.gitignore)                                 | Git ignore file           
 
 You can pass ALL parameters!
 ------------------------------------------------------------------------------------------------------------------------------------------------------
