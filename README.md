@@ -3,6 +3,7 @@ Powershell.ShowBrowseDialog -  Show a Windows folder picker dialog from PowerShe
 This DLL resolves the issue where the ShowDialog window opens behind other screens.
 
 You can pass ALL parameters!
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -Description
 
@@ -15,8 +16,13 @@ You can pass ALL parameters!
 -UseDescriptionForTitle
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Usage:
+
 
 [string]$DllPath = "$PSScriptRoot\Powershell.ShowBrowseDialog.dll" Just put the DLL in the scriptfolder or change the location for yourself.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <#
 .SYNOPSIS
